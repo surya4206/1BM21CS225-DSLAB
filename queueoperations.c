@@ -72,7 +72,7 @@ void display()
     else
     {
         printf("Queue contents:");
-        for(i=rear;i>=0;i--)
+        for(i=0;i<=rear;i++)
             printf("%d\n",queue[i]);
     }
 }
