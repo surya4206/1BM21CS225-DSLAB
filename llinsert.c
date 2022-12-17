@@ -118,7 +118,7 @@ void main()
     int choice;
     while(1)
     {
-        printf("1.Create 2.Insert at the beginning 3.Insert at the end 4.Insert at a given position 5.Display 6.Exit\n");
+        printf("\n1.Create 2.Insert at the beginning 3.Insert at the end 4.Insert at a given position 5.Display 6.Exit\n");
         printf("Enter your choice:");
         scanf("%d",&choice);
         switch(choice)
