@@ -121,7 +121,7 @@ void main()
     int choice,c1,c2;
     while(1)
     {
-        printf("1.Create 2.Sort 3.Reverse 4.Concatenate 5.Display 6.Exit");
+        printf("\n1.Create 2.Sort 3.Reverse 4.Concatenate 5.Display 6.Exit\n");
         printf("Enter choice:");
         scanf("%d", &choice);
         switch(choice)
