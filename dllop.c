@@ -107,10 +107,10 @@ void display()
 void main()
 {
     int choice;
-    printf("1.CREATE\n2.INSERT AT BEGINING\n3.DELETE SPECIFIC ELEMENT\n4.DISPLAY\n5.EXIT\n");
     while(1)
     {
-        printf("Enter choice:\n");
+        printf("\n1.Create 2.Insert at beginning 3.Delete specific element 4.Display 5.Exit\n");
+        printf("Enter choice:");
         scanf("%d", &choice);
         switch(choice)
         {
