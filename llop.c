@@ -109,9 +109,7 @@ void concatenate(node *start1,node *start2)
 	{
 		temp=start1;
 		while(temp->link!=NULL)
-		{
 			temp=temp->link;
-		}
 		temp->link=start2;
 		start=start1;
 	}
@@ -132,13 +130,13 @@ void main()
             break;
             case 3: reverse();
             break;
-            case 4: printf("Do ypu want to create the first linked list if yes press 1\n");
+            case 4: printf("Do you want to create the first linked list if yes press 1\n");
                     scanf("%d",&c1);
                     if(c1==1)
                     start1=create();
                     else
                     start1=NULL;
-                    printf("Do ypu want to create the second linked list if yes press 2\n");
+                    printf("Do you want to create the second linked list if yes press 2\n");
                     scanf("%d",&c2);
                     if(c2==2)
                     start2=create();
